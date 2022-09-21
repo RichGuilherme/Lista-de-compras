@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+
+   <link rel="stylesheet" href="style.css">
+   <script defer src="script.js"></script>
+   
+     
+    <title>Desafio5</title>
+</head>
+<body>
+    <div id="page">
+       <div id = "contener">
+        
+          <legend> Lista de compras </legend>
+  
+          <label for="itens" id="mensagemDoProduto">Produto:</label>
+          <input type="text" id="itens">
+          <button id="enviarProduto">enviar</button>
+              
+          <br><br>
+          <br>
+             
+          <form>
+               <label for="opcoesDeCategoria" id="mensagemDaCategoria" style="color:rgb(121, 120, 120)">Categoria:</label>
+               <select id="opcoesDeCategoria"disabled>
+                   <option value="carne">Carne</option>
+                   <option value="hortifruti">Hortifruti </option>
+                   <option value="limpeza">Limpeza</option>
+                   <option value="padaria">Padaria</option>
+                   <option value="higiene">Higiene</option>
+                   <option value="doce">Doce</option>
+                   <option value="mercearia">Mercearia</option>
+                   <option value="bebida">Bebida</option>
+                </select>
+                <button id="enviarCategoria" disabled>enviar</button>
+            </form>
+            <br><br>
+            
+            <label for="listaCompleta" id="mensagemDalista">Lista completa:</label>
+            <button id="listaCompleta">Carrinho</button>
+       </div>
+       <div id= "listaDeProdutos">
+          <h3> Lista 
+              <i class="em em-shopping_trolley" aria-role="presentation" aria-label="SHOPPING TROLLEY"></i>
+              <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">:
+          </h3>
+       <div id="saida"></div>
+      </div>
+    </div> 
+</body>
+</html>
