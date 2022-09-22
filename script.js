@@ -67,7 +67,7 @@ categoriaEAlimento.forEach(atributos => {
     if(atributos.produtos.length > 0){ 
      const listaItens = document.createElement('li')
      
-     const texto = document.createTextNode(`${atributos.categoria} : ${atributos.produtos}`)
+     const texto = document.createTextNode(`  ${atributos.categoria} : ${atributos.produtos}`)
      listaItens.append(texto)
      
      lista.append(listaItens)
