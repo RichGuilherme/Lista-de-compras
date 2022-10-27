@@ -1,6 +1,6 @@
 # 🛒 Lista de compras
 #### ✔️ status: Concluído 
-=========================================================================================
+========================================================================================
 ## :information_source: Sobre
 Feito em javascript puro, html e css o programa tem o intuito de criar uma lista que dividir os produtos em diferentes categorías.Simple porém com muito aprendizado por trás
 
